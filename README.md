@@ -6,4 +6,5 @@ Projeto de Desenvolvimento Web Avançado.
 E-Commerce -> Loja Parizotto
 
 
-![lojaparizotto drawio](https://user-images.githubusercontent.com/91351373/230165753-efb9e2e6-9152-4c89-915d-9c27ca97b0aa.png)
+![lojaparizotto drawio (1)](https://user-images.githubusercontent.com/91351373/230180959-37ef2855-8993-4c39-af2f-8846d57a124f.png)
+
