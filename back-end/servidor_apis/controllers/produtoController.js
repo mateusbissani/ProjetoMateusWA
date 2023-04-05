@@ -3,9 +3,9 @@ const produtoModel = require('../models/produtoModel');
 class ProdutoController {
 
     async salvar(req, res){
-        const max = await produtoModel.findOne({}).sort({id: -1});
+        const max = await produtoModel.findOne({}).sort({codigo: -1});
         let produto = req.body;
-        produto.id = max == null ? 1 : max.id + 1;
+        produto.codigo = max == null ? 1 : max.codigo + 1;
         const resultado = await produtoModel.create(produto);
         res.status(201).json(resultado);    
     }
@@ -15,24 +15,24 @@ class ProdutoController {
         res.status(200).json(resultado);
     }
 
-    async buscarPorId(req, res){
-        const id = req.params.produtoId;
-        const resultado = await produtoModel.findOne({'id': id});
+    async buscarPorCodigo(req, res){
+        const codigo = req.params.codigo;
+        const resultado = await produtoModel.findOne({'codigo': codigo});
         res.status(200).json(resultado);
     }
 
     async atualizar(req, res){
-        const id = req.params.produtoId;
-        const _id = String((await produtoModel.findOne({'id': id}))._id);
+        const codigo = req.params.codigo;
+        const _id = String((await produtoModel.findOne({'codigo': codigo}))._id);
         let produto = req.body;
-        await produtoModel.findByIdAndUpdate(String(_id), produto);
+        await produtoModel.findBycodigoAndUpdate(String(_id), produto);
         res.status(200).send();
     }
 
     async excluir(req, res){
-        const id = req.params.produtoId;
-        const _id = String((await produtoModel.findOne({'id': id}))._id);
-        await produtoModel.findByIdAndRemove(String(_id));
+        const codigo = req.params.codigo;
+        const _id = String((await produtoModel.findOne({'codigo': codigo}))._id);
+        await produtoModel.findBycodigoAndRemove(String(_id));
         res.status(200).send();
     }
 }
