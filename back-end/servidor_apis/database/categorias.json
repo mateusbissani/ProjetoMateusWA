@@ -1,0 +1,35 @@
+[
+    {
+      "codigo": 1,
+      "nome": "Calçados Masculinos"
+    },
+    {
+      "codigo": 2,
+      "nome": "Calçados Femininos"
+    },
+    {
+      "codigo": 3,
+      "nome": "Camisetas Masculinas"
+    },
+    {
+      "codigo": 4,
+      "nome": "Camisetas Femininas"
+    },
+    {
+      "codigo": 5,
+      "nome": "Shorts Masculinos"
+    },
+    {
+      "codigo": 6,
+      "nome": "Shorts Femininos"
+    },
+    {
+      "codigo": 7,
+      "nome": "Calças Masculinas"
+    },
+    {
+      "codigo": 8,
+      "nome": "Calças Femininas"
+    }
+  ]
+  

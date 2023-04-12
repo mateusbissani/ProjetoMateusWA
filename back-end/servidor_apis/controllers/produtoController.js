@@ -1,4 +1,5 @@
 const produtoModel = require('../models/produtoModel');
+const categoriaModel = require('../models/categoriaModel');
 
 class ProdutoController {
 
@@ -6,6 +7,11 @@ class ProdutoController {
         const max = await produtoModel.findOne({}).sort({codigo: -1});
         let produto = req.body;
         produto.codigo = max == null ? 1 : max.codigo + 1;
+
+        const categoria = await categoriaModel
+                            .findOne({codigo: produto.categoria.codigo});
+        produto.categoria = categoria._id;
+
         const resultado = await produtoModel.create(produto);
         res.status(201).json(resultado);    
     }
