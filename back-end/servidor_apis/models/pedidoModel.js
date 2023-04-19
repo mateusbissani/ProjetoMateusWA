@@ -7,6 +7,7 @@ const pedidoSchema = new mongoose.Schema({
     total: Number,
     status: {type: mongoose.Schema.Types.ObjectId, ref: 'status'},	
     frete: Number,
+    quantidade: Number,
     codigo: Number
 });
 

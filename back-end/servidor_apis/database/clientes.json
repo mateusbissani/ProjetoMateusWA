@@ -1,0 +1,17 @@
+[
+  {
+    "codigo": 1,
+    "sobrenome": "Vespa",
+    "nome": "Bruno",
+    "cpf": "1234567890123",
+    "saldoCarteira": 5255,
+    "receita": 3450,
+    "empresa": "Empresa 1",
+    "fone": "(41) 3231-0332",
+    "endereco": "Rua Mal. Floriano, 320",
+    "cep": "90201-899",
+    "cidade": "Curitiba",
+    "estado": "Paraná",
+    "usuario": 1
+  }
+]

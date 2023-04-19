@@ -1,0 +1,38 @@
+[
+    {
+    "itens": [
+      {
+        "nome": "",
+        "descricao": "",
+        "preco": 22,
+        "desconto": 20,
+        "foto": "",
+        "disponibilidade": 7,
+        "totalDeCompras": 0,
+        "frete": 30, 
+        "categoriaId": 1,
+        "quantidade": 2,
+        "codigo": 15
+      },
+      {
+        "nome": "",
+        "descricao": "",
+        "preco": 43,
+        "desconto": 15,
+        "foto": "",
+        "disponibilidade": 7,
+        "totalDeCompras": 0,
+        "frete": 30, 
+        "categoriaId": 3,
+        "quantidade": 2,
+        "codigo": 15
+       }
+        ],
+    "data": "2023-05-15",
+    "total": 324.54,
+    "status": 5,
+    "frete": 30,
+    "codigo": 5
+    }
+]
+  

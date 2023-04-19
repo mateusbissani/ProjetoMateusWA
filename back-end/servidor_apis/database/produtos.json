@@ -1,0 +1,26 @@
+[
+    {
+     "nome": "",
+     "descricao": "",
+     "preco": 49.9,
+     "desconto": 30,
+     "foto": "",
+     "disponiblidade": 15,
+     "totalDeCompras": 0,
+     "frete": 30,
+     "categoriaId": 4,
+     "codigo": 5
+    },
+    {
+     "nome": "",
+     "descricao": "",
+     "preco": 49.9,
+     "desconto": 30,
+     "foto": "",
+     "disponiblidade": 15,
+     "totalDeCompras": 0,
+     "frete": 30,
+     "categoriaId": 4,
+     "codigo": 5
+    }
+]  
